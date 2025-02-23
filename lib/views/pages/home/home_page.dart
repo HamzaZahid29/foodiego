@@ -4,7 +4,6 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:foodiego/core/app_text_styles.dart';
 import 'package:foodiego/core/app_themes.dart';
 import 'package:foodiego/core/widgets/star_rating_widget.dart';
-import 'package:parallax_cards/parallax_cards.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 class HomePage extends StatelessWidget {
