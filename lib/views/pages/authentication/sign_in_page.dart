@@ -88,7 +88,9 @@ class _SignInPageState extends State<SignInPage> {
                 height: 5,
               ),
               AppElevatedButton(
-                  title: 'SIGN IN', voidCallback: () {}, isLoading: false),
+                  title: 'SIGN IN', voidCallback: () {
+                    context.goNamed(AppStaticRoutePaths.homePage);
+              }, isLoading: false),
               SizedBox(
                 height: 1,
               ),
